@@ -1,41 +1,26 @@
 import React from "react";
+import { Nav } from 'react-bootstrap';
 
-function Nav() {
-    const portfolio = [
-        {
-            name: "Note-Taker",
-            description: "Application to take notes on",
-        },
-        {
-            name: "READ_ME Generator",
-            description: "An Application that generates a REAME.md based on user input",
-        },
-    ];
+function NavBar() {
     return(
         <header>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="/">Home</a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#about">About</a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    {portfolio.map((portfolio) => (
-                        <li className="mx-1" key={portfolio.name}>
-                            <span>{portfolio.name}</span>
-                        </li>
-                    ))}
-                    <li className="mx-2">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <h2>Chip Peña</h2>
+                <Nav variant="tabs" className="justify-content-end" activeKey="/about" as="ul" onSelect={(selectedKey) => alert(`${selectedKey}`)}>
+                    <Nav.Item as="li">
+                        <Nav.Link href="/about">AboutMe</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item as="li">
+                        <Nav.Link eventKey="/resume">Resume</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item as="li">
+                        <Nav.Link eventKey="/portfolio">Portfolio</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item as="li">
+                        <Nav.Link eventKey="/contact">Contact</Nav.Link>
+                    </Nav.Item>
+                </Nav>
         </header>
     );
 }
 
-export default Nav;
+export default NavBar;
