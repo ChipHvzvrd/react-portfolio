@@ -1,3 +1,69 @@
-h2 {
-  float: right;
+:root {
+  --color-blue:#B1F8F2;
+  --color-grey:#6B7D7D;
+  --color-black:#2F0A28;
+  --color-red:#FE5F55;
+  --color-brown:#CD533B;
+}
+
+#brand {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: left;
+  font-size: 30px;
+}
+
+main {
+  background-color: var(--color-blue);
+}
+
+#profilePic {
+  opacity: 90%;
+  border: 3px solid var(--color-grey);
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+}
+
+.aboutCol {
+  color: var(--color-grey);
+  margin-top: 40px;
+  font-style: italic;
+  text-align: center;
+  font-stretch: expanded;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid var(--color-grey);
+}
+
+#resumeImg {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  border: 2px solid var(--color-grey);
+}
+
+.nBar {
+  background-color:var(--color-red);
+  opacity: 95%;
+  border-bottom: 2px solid var(--color-grey);
+}
+
+.nBar a {
+  color:var(--color-black);
+}
+
+.nBar a:hover {
+  color: var(--color-blue);
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
 }

@@ -1,24 +1,22 @@
 import React from "react";
-import { Nav } from 'react-bootstrap';
+import { Nav, Navbar, NavbarBrand, NavLink, Container, Image} from 'react-bootstrap';
+import Logo from '../../assets/images/CHIPHVZVRDimage.png';
+
 
 function NavBar() {
     return(
         <header>
-            <h2>Chip Peña</h2>
-                <Nav variant="tabs" className="justify-content-end" activeKey="/about" as="ul" onSelect={(selectedKey) => alert(`${selectedKey}`)}>
-                    <Nav.Item as="li">
-                        <Nav.Link href="/about">AboutMe</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item as="li">
-                        <Nav.Link eventKey="/resume">Resume</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item as="li">
-                        <Nav.Link eventKey="/portfolio">Portfolio</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item as="li">
-                        <Nav.Link eventKey="/contact">Contact</Nav.Link>
-                    </Nav.Item>
-                </Nav>
+        <Navbar className="nBar" id="navBar">
+            <Container>
+                <Navbar.Brand href="#aboutMe" id="brand"><Image id="logo" src={Logo}></Image></Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Nav.Link className="navLink" href="#aboutMe">About Me</Nav.Link>
+                        <Nav.Link className="navLink" href="#resume">Resume</Nav.Link>
+                        <Nav.Link className="navLink" href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link className="navLink" href="#contact">Contact</Nav.Link>
+                    </Nav>
+            </Container>
+        </Navbar>
         </header>
     );
 }
