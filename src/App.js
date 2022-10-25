@@ -3,7 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Nav';
 import About from './components/About';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <About></About>
         <Resume></Resume>
+        <Portfolio></Portfolio>
       </main>
     </div>
   );
