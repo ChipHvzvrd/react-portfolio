@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Nav';
@@ -8,6 +8,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 function App() {
+  const [contactSelected, setContactSelected] = useState();
+  
   return (
     <div>
       <NavBar></NavBar>

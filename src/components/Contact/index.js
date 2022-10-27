@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Form, Button } from "react-bootstrap";
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
@@ -37,23 +37,34 @@ function Contact() {
     }
     
     return(
-        <Container>
+        <Container className="container-flex" id="contact">
             <Row>
-                <form id="contact-form" onSubmit={handleSubmit}>
+                <Form id="contact-form" onSubmit={handleSubmit}>
+                    <Form.Group className="mb-3">
                     <div>
                         <label htmlFor="name">Name:</label>
-                            <input type="text" name="name" defaultValue={name} onChange={handleChange} />
+                            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
+                    </Form.Group>
+                    <Form.Group className="mb-3">
                     <div>
                         <label htmlFor="email">Email address:</label>
-                            <input type="email" name="email" defaultValue={email} onChange={handleChange} />
+                            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
                     </div>
+                    </Form.Group>
+                    <Form.Group className="mb-3">
                     <div>
                         <label htmlFor="message">Message:</label>
-                            <textarea name="message" rows="5" defaultValue={message} onChange={handleChange} />
+                            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                     </div>
-                        <button type="submit">Submit</button>
-                </form>
+                    </Form.Group>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                        <Button type="submit">Submit</Button>
+                </Form>
             </Row>
         </Container>
     );

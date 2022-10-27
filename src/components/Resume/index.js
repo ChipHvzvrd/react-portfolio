@@ -5,9 +5,16 @@ import Container from 'react-bootstrap/Container';
 
 
 function Resume() {
+    const downloadResume = () => {
+        console.log()
+    }
+
     return(
         <Container id="resume">
             <Image src={resume} id="resumeImg"></Image>
+            <div className="btnDiv">
+                <button id="downloadBtn" value="download" onClick={downloadResume}>Download</button>
+            </div>
         </Container>
     );
 }

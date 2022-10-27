@@ -7,12 +7,12 @@ function Portfolio() {
     return(
         <Container id="portfolio">
             <Row>
-                <Col id="portCol" className="col-md-5">
+                <Col id="portCol" className="col-md-6">
                     <a href="https://mysterious-thicket-77976.herokuapp.com/notes">Note-Taker
                         <Image id="portImage" src={NoteImg} href="https://mysterious-thicket-77976.herokuapp.com/notes"></Image>
                     </a>
                 </Col>
-                <Col id="portCol" className="col-md-5">
+                <Col id="portCol" className="col-md-6">
                     <a href="https://chiphvzvrd.github.io/work-day-scheduler/">Work Day Scheduler
                         <Image id="portImage" src={WorkImg}></Image>
                     </a>
