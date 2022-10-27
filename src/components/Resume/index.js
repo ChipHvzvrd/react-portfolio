@@ -1,7 +1,6 @@
 import React from "react";
-import resume from '../../assets/images/Resume.jpg'
-import { Image } from "react-bootstrap";
-import Container from 'react-bootstrap/Container';
+import resume from '../../assets/images/Resume.jpg';
+import { Container, Button, Image} from 'react-bootstrap';
 import {saveAs} from 'file-saver';
 
 
@@ -21,7 +20,7 @@ function Resume() {
         <Container id="resume">
             <Image src={resume} id="resumeImg"></Image>
             <div className="btnDiv">
-                <button id="downloadBtn" value="download" onClick={downloadResume}>Download</button>
+                <Button id="downloadBtn" value="download" onClick={downloadResume}>Download</Button>
             </div>
         </Container>
     );

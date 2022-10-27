@@ -128,3 +128,27 @@ main {
   background-color: var(--color-grey);
   opacity: 50%;
 }
+
+#downloadBtn {
+  background-color: var(--color-red);
+  border: 2px solid var(--color-grey);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#footerBar {
+  background-color: var(--color-red);
+  text-align: center;
+}
+
+#footerBar a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-black);
+}
+
+#footimg {
+  width: 7vw;
+}
