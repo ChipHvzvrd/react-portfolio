@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d8ab59c2.css",
+    "main.js": "/react-portfolio/static/js/main.d5a52dd1.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Resume.jpg": "/react-portfolio/static/media/Resume.27b947283d35e5268c5c.jpg",
+    "static/media/Client-Portfolio.png": "/react-portfolio/static/media/Client-Portfolio.238296e8ee4599f6fddb.png",
+    "static/media/profPic.jpg": "/react-portfolio/static/media/profPic.83ce9a448fe46e9d3a91.jpg",
+    "static/media/octo-cat.png": "/react-portfolio/static/media/octo-cat.77e6e10932036585db7e.png",
+    "static/media/Code_quiz.png": "/react-portfolio/static/media/Code_quiz.00fd6c7ad5287e10e6af.png",
+    "static/media/work-sched-pic.png": "/react-portfolio/static/media/work-sched-pic.e8c0107677a361e5746b.png",
+    "static/media/PassGen.png": "/react-portfolio/static/media/PassGen.1f7b0d41f8b5e965e9d1.png",
+    "static/media/CHIPHVZVRDimage.png": "/react-portfolio/static/media/CHIPHVZVRDimage.b6f305c81137c801e8e3.png",
+    "static/media/CoolPaws.png": "/react-portfolio/static/media/CoolPaws.46cd1e29073167babdee.png",
+    "static/media/li-logo.png": "/react-portfolio/static/media/li-logo.5a3bbcc638d1859f2c2b.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.b56b4fc4bab425ae656d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.d8ab59c2.css.map": "/react-portfolio/static/css/main.d8ab59c2.css.map",
+    "main.d5a52dd1.js.map": "/react-portfolio/static/js/main.d5a52dd1.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ab59c2.css",
+    "static/js/main.d5a52dd1.js"
+  ]
+}
