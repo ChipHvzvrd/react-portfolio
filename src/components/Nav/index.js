@@ -16,8 +16,15 @@ function NavBar() {
                         <Nav.Link href="#aboutMe">About</Nav.Link>
                         <Nav.Link href="#resume">Resume</Nav.Link>
                             <NavDropdown title="Portfolio" id="collapsible-nav-dropdown">
-                                <NavDropdown.Item href="#item1">placeholder1</NavDropdown.Item>
-                                <NavDropdown.Item href="#item2">placeholder2</NavDropdown.Item>
+                                <NavDropdown.Item href="https://636451c31b88430e82819f26--deluxe-starburst-d46935.netlify.app/">Tech-Blog</NavDropdown.Item>
+                                <NavDropdown.Item href="https://mysterious-thicket-77976.herokuapp.com/notes">Note-Taker</NavDropdown.Item>
+                                <NavDropdown.Item href="https://chiphvzvrd.github.io/work-day-scheduler/">Work-Day-Scheduler</NavDropdown.Item>
+                                <NavDropdown.Item href="https://chiphvzvrd.github.io/password-generator/">Password-Generator</NavDropdown.Item>
+                                <NavDropdown.Item href="https://chiphvzvrd.github.io/CSS_Portfolio/">CSS-Portfolio</NavDropdown.Item>
+                                <NavDropdown.Item href="https://chiphvzvrd.github.io/dog_walker_app/">Cool-Paws</NavDropdown.Item>
+                                <NavDropdown.Item href="https://chiphvzvrd.github.io/coding-quiz-test/">Javascript-Quiz</NavDropdown.Item>
+
+                                
                             </NavDropdown>
                         <Nav.Link href="Contact">Contact</Nav.Link>
                     </Nav>

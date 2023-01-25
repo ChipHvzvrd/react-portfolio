@@ -35,6 +35,47 @@
   font-size: 2.5vw;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: var(--color-blue);
+  font-family: 'Cafe';
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+}
+
+#collapsible-nav-dropdown::after {
+  background-color: transparent;
+}
+
+#collapsible-nav-dropdown:hover::after {
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  color: var(--color-blue) !important;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-blue);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  color: var(--color-blue);
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 /*------------About-------------*/
 
@@ -161,7 +202,9 @@ main {
 
 @media only screen and (max-width: 767px) {
 
-
+  .nav-link::after {
+    width: 10%;
+  }
 
 }
 
