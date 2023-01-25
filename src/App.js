@@ -24,8 +24,8 @@ function App() {
       </main>
       <footer>
         <div id="footerBar">
-        <a href='https://github.com/ChipHvzvrd'><Image id="footimg" src={GHLogo}></Image>@ChipHvzvrd</a>
-        <a href='https://www.linkedin.com/in/christian-pena-1434621b5/'><Image id="footimg" src={LILogo}></Image>@Christian_Pena</a>
+        <a href='https://github.com/ChipHvzvrd'><Image id="footimg" src={GHLogo}></Image></a>
+        <a href='https://www.linkedin.com/in/christian-pena-1434621b5/'><Image id="footimg" src={LILogo}></Image></a>
         </div>
       </footer>
     </div>

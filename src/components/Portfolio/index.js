@@ -6,6 +6,7 @@ import PassGen from '../../assets/images/PassGen.png';
 import ClientImg from '../../assets/images/Client-Portfolio.png';
 import CoolPaws from '../../assets/images/CoolPaws.png';
 import CodeImg from '../../assets/images/Code_quiz.png';
+import TechImg from '../../assets/images/techblog.png';
 
 function Portfolio() {
     return(
@@ -27,18 +28,23 @@ function Portfolio() {
                     </a>
                 </Col>
                 <Col id="portCol" className="col-md-6">
-                    <a href="https://chiphvzvrd.github.io/CSS_Portfolio/">Work Day Scheduler
+                    <a href="https://chiphvzvrd.github.io/CSS_Portfolio/">CSS Portfolio
                         <Image id="portImage" src={ClientImg}></Image>
                     </a>
                 </Col>
                 <Col id="portCol" className="col-md-6">
-                    <a href="https://chiphvzvrd.github.io/dog_walker_app/">Work Day Scheduler
+                    <a href="https://chiphvzvrd.github.io/dog_walker_app/">Dog Walk App
                         <Image id="portImage" src={CoolPaws}></Image>
                     </a>
                 </Col>
                 <Col id="portCol" className="col-md-6">
-                    <a href="https://chiphvzvrd.github.io/coding-quiz-test/">Work Day Scheduler
+                    <a href="https://chiphvzvrd.github.io/coding-quiz-test/">Code-Quiz
                         <Image id="portImage" src={CodeImg}></Image>
+                    </a>
+                </Col>
+                <Col id="portCol" className="col-md-6">
+                    <a href="https://636451c31b88430e82819f26--deluxe-starburst-d46935.netlify.app/">Tech-Blog
+                        <Image id="portImage" src={TechImg}></Image>
                     </a>
                 </Col>
             </Row>
