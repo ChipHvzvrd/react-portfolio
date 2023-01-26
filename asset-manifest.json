@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.07d8480b.css",
+    "main.js": "/react-portfolio/static/js/main.c527cb77.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Resume.jpg": "/react-portfolio/static/media/Resume.27b947283d35e5268c5c.jpg",
+    "static/media/Client-Portfolio.png": "/react-portfolio/static/media/Client-Portfolio.238296e8ee4599f6fddb.png",
+    "static/media/chlogo.png": "/react-portfolio/static/media/chlogo.070d4499d7348ebca4ba.png",
+    "static/media/profPic.jpg": "/react-portfolio/static/media/profPic.83ce9a448fe46e9d3a91.jpg",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.6712bd098318c5aa8b18.png",
+    "static/media/octo-cat.png": "/react-portfolio/static/media/octo-cat.77e6e10932036585db7e.png",
+    "static/media/Code_quiz.png": "/react-portfolio/static/media/Code_quiz.00fd6c7ad5287e10e6af.png",
+    "static/media/work-sched-pic.png": "/react-portfolio/static/media/work-sched-pic.e8c0107677a361e5746b.png",
+    "static/media/PassGen.png": "/react-portfolio/static/media/PassGen.1f7b0d41f8b5e965e9d1.png",
+    "static/media/CoolPaws.png": "/react-portfolio/static/media/CoolPaws.46cd1e29073167babdee.png",
+    "static/media/Louis George Cafe.ttf": "/react-portfolio/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
+    "static/media/li-logo.png": "/react-portfolio/static/media/li-logo.5a3bbcc638d1859f2c2b.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.b56b4fc4bab425ae656d.png",
+    "static/media/Hexa 2.ttf": "/react-portfolio/static/media/Hexa 2.1549431f6185b92dd3ad.ttf",
+    "index.html": "/react-portfolio/index.html",
+    "main.07d8480b.css.map": "/react-portfolio/static/css/main.07d8480b.css.map",
+    "main.c527cb77.js.map": "/react-portfolio/static/js/main.c527cb77.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07d8480b.css",
+    "static/js/main.c527cb77.js"
+  ]
+}
